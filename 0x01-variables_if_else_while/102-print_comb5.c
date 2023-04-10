@@ -14,7 +14,7 @@ int main(void)
 	int bas;
 
 for ( tho = 0 ; tho < 10 ; tho++)
-{	
+{
 
 	for (hun = 0 ; hun <= 10 ; hun++)
 	{
@@ -30,7 +30,7 @@ for ( tho = 0 ; tho < 10 ; tho++)
 				putchar('0' + bas);
 				if (!(tho == 9 && hun == 8))
 				{
-					putchar(',');
+					putchar( ',' );
 					putchar(32);
 				}
 				bas++;
